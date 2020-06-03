@@ -7,30 +7,22 @@ function config_link {
   fi
 }
 
+config_link xinitrc
+config_link Xdefaults
+config_link Xresources
+config_link Xdefaults.d
+
 config_link gitconfig
 config_link gitignore
 config_link hgrc
 
-config_link dircolors
-config_link irssi
-config_link musca_start
-config_link mutt
-config_link muttrc
-config_link newsbeuter
-config_link pentadactyl
-config_link pentadactylrc
-config_link slate.js
+config_link ackrc
+config_link irbrc
+config_link editrc
 config_link ssh
 config_link tmux.conf
 config_link vim
-config_link vimrc
 config_link wgetrc
 
 config_link zlogin
 config_link zshrc
-
-if [[ `uname -s` == "Linux" && -e /etc/arch-release ]]
-then
-	config_link Xdefaults
-	config_link xinitrc
-fi

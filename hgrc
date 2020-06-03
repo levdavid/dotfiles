@@ -1,2 +1,14 @@
 [ui]
-username = jsvana
+username = jsvana <jsvana@mtu.edu>
+merge = vimdiff
+[extensions]
+hgext.extdiff =
+rebase =
+[merge-tools]
+vimdiff.executable = vim
+vimdiff.args = -d $base $local $output $other +close +close
+[alias]
+cm = commit -m
+st = status
+[http_proxy]
+host = fwdproxy:8080

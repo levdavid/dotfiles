@@ -1,5 +1,4 @@
 ! Hybrid Terminal Colours. Uses the palette from Tomorrow-Night:
-!
 ! vim: ft=xdefaults
 
 *background: #1D1F21
@@ -28,15 +27,3 @@
 ! white
 *color7: #707880
 *color15: #C5C8C6
-
-urxvt.scrollBar: false
-urxvt*font: xft:Dina:size=10
-
-urxvt.perl-ext-common: default,matcher,selection-to-clipboard
-
-urxvt.clipboard.autocopy: true
-
-urxvt*url-launcher: /usr/bin/google-chrome-stable
-urxvt*matcher.button: 1
-
-urxvt.cutchars: "()*,<>[]{}|│''"
